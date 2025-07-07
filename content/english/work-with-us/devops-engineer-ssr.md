@@ -4,79 +4,76 @@ schedule: "Full time"
 location: "Remote"
 summary: "Join the team at Mikroways responsible for delivering the service to
 our customers."
+factorial_job_id: "244649"
 ---
 
 # Summary
 
-Due to the company's DNA, a DevOps Engineer at Mikroways faces new challenges on
-a daily basis, requiring a great capacity for learning, creativity, and a
-proactive attitude.
+At Mikroways, a DevOps Engineer faces new challenges daily, requiring strong
+learning ability, creativity, and a proactive attitude.
 
-The person joining this position will be part of the Mikroways team responsible
-for delivering services to clients. In this role, they will collaborate in the
-development of innovative solutions based on DevOps principles and using tools
-such as Docker, Kubernetes, Ansible, Terraform, and working with public such as
-AWS, GCP, Azure. Also we work with private clouds like OpenStack.
+The person in this position will be part of Mikroways' delivery team,
+responsible for delivering services to our customers. In this role, they will
+have greater autonomy in developing innovative solutions based on DevOps
+practices, actively participating in the design, implementation, and continuous
+improvement of infrastructures and processes.
 
 ## Responsibilities
 
-* Design and implement cloud infrastructure solutions.
-* Provide support and assistance to internal teams.
-* Suggest improvements in processes and services offered.
-* Package applications in containers.
+* Design and implement infrastructure solutions in both private and public
+  clouds.
+* Provide advanced support and assistance to internal teams.
+* Identify opportunities for improvement and propose optimizations in processes
+  and services.
+* Package applications into containers and deploy them in production
+  environments.
 * Install and manage container orchestrators.
 * Configure continuous integration, delivery, and deployment pipelines.
-* Deploy applications on orchestrators using CI/CD pipelines.
-* Automate the creation of servers, networks, storage, etc.
+* Deploy applications using CI/CD pipelines.
+* Automate the provisioning of servers, networks, storage, etc.
 * Configure application and server monitoring.
-* Address client requirements and provide support to development teams for
-  better project integration.
+* Participate in troubleshooting and resolving incidents in production
+  environments.
+* Collaborate in architecture reviews and technical definitions.
+* Respond to customer requirements and support development teams for better
+  project integration.
 
 ## Personal aptitudes
 
-* **Learning Capacity**: The job requires constantly learning new tools and
+* **Continuous learning ability**: constantly acquire new tools and
   technologies.
-* **Problem Solving**: For the development of our solutions, it's important to
-  be able to understand the essence of each problem, generate possible
-  resolution alternatives, and implement the most suitable one according to the
-  specific project needs.
-* **Proactivity**: Generating, proposing, and implementing ideas and solutions
-  on one's own initiative.
-* **Good Communication Skills**: For interaction with clients and the team
-  itself, it's important to communicate clearly, both orally and in writing.
-* **Teamwork**: Our work is complex, and therefore we form teams that allow us
-  to enhance everyone's capabilities and knowledge.
-* **Organizational Skills and Commitment to Agreements**: Having flexible
-  schedules and working remotely should not affect meeting commitments with
-  clients or the team, which requires good organizational skills and assuming
-  the necessary responsibility.
-* **Working Under Pressure**: Although it's not the norm and the best practices
-  we adopt and promote aim to avoid issues, working with production services
-  implies that sometimes problems must be resolved under the pressure of fixing
-  them as soon as possible.
+* **Complex problem-solving**: identify root causes, analyze alternatives, and
+  implement effective solutions.
+* **Proactivity**: generate, propose, and implement ideas and solutions
+  independently.
+* **Strong communication skills**: essential for effective interaction with
+  customers and team members, both verbal and written.
+* **Teamwork**: we foster teams that enhance everyone's skills and knowledge.
+* **Autonomy and organization**: high responsibility is expected for project
+  management and meeting commitments.
+* **Working under pressure**: although we promote best practices to avoid
+  incidents, being able to remain calm and efficient in critical situations is
+  essential.
 
 ## Professional knowledge
 
-For this position, prior experience is required in:
+Minimum **2 years** of proven experience in production environments with:
 
 * CI/CD tools (Jenkins, GitLab CI, GitHub Actions, etc.).
-* Cloud environments and technologies (AWS, GCP, Azure, and specific services).
-* Infrastructure-as-code tools (Terraform, Ansible, etc.).
-* Creation and use of Docker containers, installation and management of
-  Kubernetes clusters.
-* Providing services in production environments.
+* Cloud platforms and technologies (AWS, GCP, Azure).
+* Infrastructure as code tools (Terraform, Ansible).
+* Container management and Kubernetes administration.
+* Production-grade services.
 
-Additionally, the following knowledge is important:
+Additionally, the following are valued:
 
-* Advanced use of GIT and its different workflows.
-* Networks: TCP/IP addressing schemes, subnetting concepts, routing tables, NAT,
-  DNS, HTTP.
-* Installation of Linux operating systems, console management for system
-  administration and configuration. Shell scripting.
+* Advanced use of GIT and standard workflows (Pull/Merge Requests).
+* Networking: TCP/IP, subnetting, routing tables, NAT, DNS, HTTP.
+* Linux OS installation, system administration via terminal, shell scripting.
+* Relational databases (basic use from the console).
+* JSON, YAML, XML, Markdown formats.
 * Use of environment variables.
-* Relational databases: usage of MySQL or PostgreSQL from the console.
-* Markups: knowledge and use of JSON, YAML, XML, and Markdown formats.
-* Comprehension of texts and videos in English. Oral and written communication
-  skills are a strong plus.
-* AWS Associate-level certification or higher, or (CKA) Certified Kubernetes
-  Administrator, is a significant plus.
+* Reading and video comprehension in English. Strong verbal and written
+  communication in English is a plus.
+* AWS Associate-level certification or higher, or Certified Kubernetes
+  Administrator (CKA) is a significant plus.
