@@ -1,9 +1,10 @@
 ---
 title: "DevOps Engineer Trainee"
-schedule: "Part time"
+schedule: "Full time"
 location: "Remote"
 summary: "Join the team at Mikroways responsible for delivering the service to
 our customers."
+factorial_job_id: "244651"
 draft: true
 ---
 

@@ -4,6 +4,7 @@ schedule: "Full time"
 location: "Remote"
 summary: "Join the team at Mikroways responsible for delivering the service to
 our customers."
+draft: true
 ---
 
 # Summary

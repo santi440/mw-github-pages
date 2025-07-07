@@ -4,6 +4,7 @@ schedule: "Full time"
 location: "Remote"
 summary: "Lead a team of professionals and ensures the delivery of projects to
 customers."
+draft: true
 ---
 
 # Summary

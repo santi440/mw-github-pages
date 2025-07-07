@@ -4,6 +4,7 @@ schedule: "Full time"
 location: "Remote"
 summary: "Integra el equipo de Mikroways encargado del delivery del servicio a
 los clientes."
+draft: true
 ---
 
 # Resumen del puesto

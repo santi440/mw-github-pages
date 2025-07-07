@@ -4,6 +4,7 @@ schedule: "Full time"
 location: "Remote"
 summary: "Lidera un equipo de profesionales y la entrega de los proyectos a los
 clientes."
+draft: true
 ---
 
 # Resumen del puesto
