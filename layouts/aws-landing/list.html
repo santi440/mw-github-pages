@@ -1,0 +1,182 @@
+{{ define "main" }}
+
+{{ $locale := .Site.Language.Lang }}
+{{ $data := index site.Data $locale "aws" }}
+
+<div class="aws-landing-root">
+<section class="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-glow-2"></div>
+    <div class="hero-inner">
+        <div class="hero-text" style="padding-right: 0 !important; padding-left: 0 !important;">
+            <div class="hero-eyebrow">
+                <div class="hero-eyebrow-dot"></div>
+                {{ $data.hero.eyebrow }}
+            </div>
+            {{ if $data.hero.pretitle }}<div class="hero-pretitle">{{ $data.hero.pretitle }}</div>{{ end }}
+            <h1 class="hero-title">
+                {{ $titleText := $data.hero.title }}
+                {{ if eq $locale "es" }}
+                {{ $titleText := replace $titleText "seguras, escalables" "<em>seguras, escalables</em>" }}
+                {{ $titleText | safeHTML }}
+                {{ else }}
+                {{ $titleText := replace $titleText "safer, scalable" "<em>safer, scalable</em>" }}
+                {{ $titleText | safeHTML }}
+                {{ end }}
+            </h1>
+            {{ if $data.hero.subtitle_1 }}<p class="hero-subtitle">{{ $data.hero.subtitle_1 }}</p>{{ end }}
+            {{ if $data.hero.subtitle_2 }}<p class="hero-support">{{ $data.hero.subtitle_2 }}</p>{{ end }}
+            <div class="hero-cta-group">
+                {{ range $data.hero.ctas }}
+                {{ if hasPrefix .url "#" }}
+                <a href="{{ .url }}" class="btn-pill btn-filled scroll-to-section" 
+                    {{ if eq .style "outline" }}style="background:transparent;color:#fff;border-color:rgba(255,255,255,0.85);"{{ end }}
+                    {{ if eq .style "light" }}style="background:#fff;color:var(--blue-deep);border-color:#fff;"{{ end }}>
+                {{ .label }}
+                </a>
+                {{ else }}
+                <a href="{{ .url | relLangURL }}" class="btn-pill btn-filled" 
+                    {{ if eq .style "outline" }}style="background:transparent;color:#fff;border-color:rgba(255,255,255,0.85);"{{ end }}
+                    {{ if eq .style "light" }}style="background:#fff;color:var(--blue-deep);border-color:#fff;"{{ end }}>
+                {{ .label }}
+                </a>
+                {{ end }}
+                {{ end }}
+            </div>
+        </div>
+        <div class="hero-visual">
+        <img src="{{ "/images/partners/aws.svg" | relURL }}" alt="AWS Advanced Partner" style="width:100%;max-width:220px;margin:0 auto;display:block;filter:drop-shadow(0 8px 32px rgba(0,0,0,0.25));" />
+        </div>
+    </div>
+</section>
+
+<section class="mod-alianza" id="alianza">
+  <div class="container">
+    <div class="alianza-inner">
+      <div class="alianza-text">
+        <span class="section-label reveal">AWS</span>
+        <h2 class="section-title reveal stagger-1">{{ $data.alianza.title }}</h2>
+        <p class="alianza-body reveal stagger-2">
+          {{ $data.alianza.body }}
+        </p>
+        <div class="divider reveal stagger-3 visible"></div>
+        {{ with $data.alianza.body_2 }}
+        <p class="alianza-body reveal stagger-3" style="margin-top:20px">
+          {{ . }}
+        </p>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="mod-credenciales" id="credenciales">
+  <div class="container">
+    <div class="cred-inner">
+      <div class="cred-header reveal" style="text-align:center;max-width:700px;margin:0 auto 60px;">
+        <span class="section-label green" style="margin-bottom:10px;display:block;">{{ $data.credenciales.label }}</span>
+        <h2 class="section-title white" style="margin-bottom:14px;">{{ $data.credenciales.title }}</h2>
+        <p class="section-body" style="color:rgba(255,255,255,0.55);margin:0;">{{ $data.credenciales.description }}</p>
+      </div>
+      <div class="cred-badges-row reveal stagger-1" style="margin-bottom:32px;">
+        <img class="cred-badge-img cred-badge-hex" src="{{ "/images/credentials/aws-cp.png" | relURL }}" alt="AWS Certified Cloud Practitioner" title="AWS Certified Cloud Practitioner">
+        <img class="cred-badge-img cred-badge-hex" src="{{ "/images/credentials/aws-sa.png" | relURL }}" alt="AWS Certified Solutions Architect Associate" title="AWS Certified Solutions Architect Associate">
+        <img class="cred-badge-img cred-badge-hex" src="{{ "/images/credentials/aws-sap.png" | relURL }}" alt="AWS Certified Solutions Architect Professional" title="AWS Certified Solutions Architect Professional">
+        <img class="cred-badge-img cred-badge-hex" src="{{ "/images/credentials/aws-soa.png" | relURL }}" alt="AWS Certified SysOps Administrator Associate" title="AWS Certified SysOps Administrator Associate">
+        <img class="cred-badge-img cred-badge-hex" src="{{ "/images/credentials/aws-do.png" | relURL }}" alt="AWS Certified DevOps Engineer Professional" title="AWS Certified DevOps Engineer Professional">
+      </div>
+      <div class="cred-badges-row reveal stagger-2">
+        <img class="cred-badge-img cred-badge-partner" src="{{ "/images/credentials/awspart1.svg" | relURL }}" alt="AWS Partner EC2 for Windows Server Delivery" title="AWS Partner EC2 for Windows Server Delivery">
+        <img class="cred-badge-img cred-badge-partner" src="{{ "/images/credentials/awspart2.svg" | relURL }}" alt="AWS Partner Immersion Day" title="AWS Partner Immersion Day">
+        <img class="cred-badge-img cred-badge-partner" src="{{ "/images/credentials/awspart3.svg" | relURL }}" alt="AWS Partner Amazon EKS Delivery" title="AWS Partner Amazon EKS Delivery">
+        <img class="cred-badge-img cred-badge-partner" src="{{ "/images/credentials/awspart4.svg" | relURL }}" alt="AWS Partner Well-Architected Partner Program" title="AWS Partner Well-Architected Partner Program">
+      </div>
+
+      <p class="cred-body-text reveal" style="text-align:center;">{{ $data.credenciales.footer }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="mod-capacidades" id="capacidades">
+  <div class="container">
+    <div class="cap-header">
+      <span class="section-label reveal">{{ $data.capacidades.label }}</span>
+      <h2 class="section-title reveal stagger-1">{{ $data.capacidades.header }}</h2>
+    </div>
+    <p class="cap-intro reveal stagger-2">
+      {{ $data.capacidades.intro_1 }}
+    </p>
+    <p class="cap-intro reveal stagger-3" style="margin-top:-32px;">
+      {{ $data.capacidades.intro_2 }}
+    </p>
+
+    <div class="cap-list">
+      {{ range $index, $item := $data.capacidades.items }}
+      <div class="cap-item reveal{{ if gt $index 0 }} stagger-{{ $index }}{{ end }}">
+        <div class="cap-content{{ if $item.dark }} dark{{ end }}">
+          <div class="cap-num{{ if $item.dark }} white{{ end }}">{{ $item.num }} · {{ $data.capacidades.capability_label }}</div>
+          <h3 class="cap-item-title{{ if $item.dark }} white{{ end }}">{{ $item.title }}</h3>
+          <p class="cap-item-body{{ if $item.dark }} light{{ end }}">{{ $item.text_1 }}</p>
+          <p class="cap-item-body{{ if $item.dark }} light{{ end }}" style="margin-top:6px;">{{ $item.text_2 }}</p>
+        </div>
+        <div class="cap-visual" style="background:#D8DEE6;padding:0;overflow:hidden;">
+          <img src="{{ $item.image | relURL }}" alt="{{ $item.title }}" style="width:100%;height:100%;object-fit:cover;display:block;">
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="mod-wa" id="well-architected">
+  <div class="wa-main">
+    <div class="container">
+      <div class="wa-main-inner">
+        <!-- Columna texto -->
+        <div class="wa-text-col">
+          <span class="wa-text-label reveal">{{ $data.well_architected.label }}</span>
+          <h2 class="wa-text-title reveal stagger-1">{{ $data.well_architected.header }}</h2>
+          <p class="wa-text-body reveal stagger-2">{{ $data.well_architected.intro_1 }}</p>
+          <p class="wa-text-body reveal stagger-3">{{ $data.well_architected.intro_2 }}</p>
+        </div>
+
+        <!-- Columna pillar cards -->
+        <div class="wa-pillars-col">
+          {{ range $index, $pillar := $data.well_architected.pillars }}
+          <div class="wa-pillar-card reveal stagger-{{ add $index 1 }}">
+            <div class="wa-pillar-icon">
+              {{ $pillar.icon | safeHTML }}
+            </div>
+            <div class="wa-pillar-title">{{ $pillar.name }}</div>
+            <div class="wa-pillar-desc">{{ $pillar.desc }}</div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wa-band">
+    <div class="wa-band-glow"></div>
+    <div class="container">
+      <div class="wa-band-inner">
+        <div class="wa-band-eyebrow reveal">{{ $data.well_architected.band.eyebrow }}</div>
+        <h2 class="wa-band-title reveal stagger-1">{{ $data.well_architected.band.title }}</h2>
+        <p class="wa-band-sub reveal stagger-2">{{ $data.well_architected.band.subtitle }}</p>
+        <div class="wa-band-cta-group reveal stagger-3">
+          <a href="{{ $data.well_architected.band.cta_url | relLangURL }}" class="btn-pill" style="background:#fff;color:var(--blue-deep);border:2px solid #fff;white-space:nowrap;font-size:14px;font-weight:700;">
+            {{ $data.well_architected.band.cta_label }}
+            <svg width="13" height="13" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+<script src="/js/reveal-landing.js"></script>
+<link rel="stylesheet" href="/css/aws-landing.css">
+<link rel="stylesheet" href="/css/custom.css">
+{{ end }}

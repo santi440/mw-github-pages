@@ -1,0 +1,124 @@
+
+title: "Socio AWS | Mikroways"
+hero:
+  eyebrow: "AWS ADVANCED TIER SERVICES PARTNER"
+  pretitle: "MIKROWAYS + AWS"
+  title: "Impulsamos arquitecturas cloud más seguras, escalables y preparadas para crecer"
+  subtitle_1: "Como AWS Advanced Tier Services Partner, ayudamos a las organizaciones a diseñar, optimizar y evolucionar sus entornos en AWS con una mirada práctica, experiencia real y foco en resultados concretos de negocio."
+  subtitle_2: "Combinamos mejores prácticas oficiales de AWS, experiencia técnica aplicada y capacidad de ejecución para acompañar procesos de modernización, seguridad, observabilidad, optimización y mejora continua."
+  ctas:
+    - label: "Hablemos sobre tu entorno AWS"
+      url: "/contact"
+      style: "outline"
+    - label: "Conocé nuestras soluciones"
+      url: "#capacidades"
+      style: "light"
+
+alianza:
+  title: "Una alianza estratégica para transformar la nube en una ventaja competitiva"
+  body: |
+    En Mikroways trabajamos junto a AWS para acompañar a nuestros clientes en la evolución de sus plataformas cloud, combinando especialización técnica, cercanía y una visión integral sobre arquitectura, operaciones, seguridad y performance.
+  body_2: |
+    Nuestra alianza con AWS nos permite construir soluciones basadas en estándares oficiales, mejores prácticas reconocidas globalmente y una mirada moderna sobre cómo diseñar, operar y escalar entornos cloud con mayor solidez.
+
+credenciales:
+  label: "Credenciales"
+  title: "Credenciales que respaldan nuestra experiencia"
+  description: "Nuestra propuesta sobre AWS está respaldada por certificaciones, acreditaciones y especializaciones que reflejan el nivel de preparación de nuestro equipo y nuestro compromiso con la excelencia técnica."
+  footer: "Cada una de estas credenciales fortalece nuestra capacidad para acompañar proyectos reales con foco en arquitectura, seguridad, operaciones, optimización y evolución continua."
+  aws_certifications:
+    - title: "AWS Certified Cloud Practitioner"
+      type: "hex"
+      src: ""
+    - title: "AWS Certified Solutions Architect Associate"
+      type: "hex"
+      src: "" # TODO: Agregar SVG base64 para AWS Certified Solutions Architect Associate
+    - title: "AWS Certified Solutions Architect Professional"
+      type: "hex"
+      src: "" # TODO: Agregar SVG base64 para AWS Certified Solutions Architect Professional
+    - title: "AWS Certified DevOps Engineer Professional"
+      type: "hex"
+      src: "" # TODO: Agregar SVG base64 para AWS Certified DevOps Engineer Professional
+  aws_partner_badges:
+    - title: "AWS Partner EC2 for Windows Server Delivery"
+      type: "partner"
+      src: "" # TODO: Agregar SVG base64 para AWS Partner EC2 for Windows Server Delivery
+    - title: "AWS Partner Immersion Day"
+      type: "partner"
+      src: "" # TODO: Agregar SVG base64 para AWS Partner Immersion Day
+    - title: "AWS Partner Amazon EKS Delivery"
+      type: "partner"
+      src: "" # TODO: Agregar SVG base64 para AWS Partner Amazon EKS Delivery
+    - title: "AWS Partner Well-Architected Partner Program"
+      type: "partner"
+      src: "" # TODO: Agregar SVG base64 para AWS Partner Well-Architected Partner Program
+
+capacidades:
+  label: "Capacidades"
+  capability_label: "Capacidad"
+  header: "Capacidades concretas para desafíos reales en AWS"
+  intro_1: "No todas las organizaciones enfrentan los mismos desafíos, pero muchas comparten una necesidad común: construir entornos cloud más sólidos, más seguros y mejor preparados para crecer."
+  intro_2: "En Mikroways acompañamos ese camino con capacidades específicas que nos permiten intervenir donde más valor podemos generar: desde la arquitectura hasta la operación, desde la seguridad hasta la optimización continua."
+  items:
+    - num: "01"
+      title: "Arquitectura y modernización cloud"
+      text_1: "Diseñamos y evolucionamos arquitecturas en AWS para que sean más escalables, resilientes y preparadas para acompañar el crecimiento del negocio."
+      text_2: "Ayudamos a construir bases más sólidas para nuevas aplicaciones, modernización de cargas existentes y procesos de transformación tecnológica, priorizando decisiones que mejoran estabilidad, performance y capacidad de expansión."
+      image: "/images/capabilities/capacidad.jpeg"
+      dark: false
+    - num: "02"
+      title: "Seguridad, compliance y gobernanza"
+      text_1: "Fortalecemos la postura de seguridad de los entornos AWS mediante buenas prácticas, controles, revisión de configuraciones y criterios de gobernanza que permiten reducir riesgos y mejorar el nivel de madurez de la organización."
+      text_2: "Trabajamos tanto sobre la protección técnica de los workloads como sobre la necesidad de ordenar accesos, estructuras multi-account, políticas y trazabilidad operativa."
+      image: "/images/capabilities/capacidad2.jpeg"
+      dark: true
+    - num: "03"
+      title: "Operaciones, observabilidad y optimización continua"
+      text_1: "Una buena arquitectura no alcanza si no puede sostenerse correctamente en el tiempo."
+      text_2: "Por eso, ayudamos a construir entornos más observables, operables y eficientes, con foco en monitoreo, estabilidad, respuesta a incidentes, trazabilidad y mejora continua."
+      image: "/images/capabilities/capacidad3.jpeg"
+      dark: false
+
+well_architected:
+  label: "AWS Well-Architected"
+  header: "Evaluá tu arquitectura con el framework oficial de AWS"
+  intro_1: "El AWS Well-Architected Framework permite revisar cargas de trabajo en la nube a partir de seis pilares fundamentales: seguridad, fiabilidad, excelencia operacional, eficiencia de rendimiento, optimización de costos y sostenibilidad."
+  intro_2: "Como partner certificado del programa AWS Well-Architected, en Mikroways ayudamos a las organizaciones a detectar riesgos, identificar oportunidades de mejora y construir una hoja de ruta clara para evolucionar sus entornos AWS con mejores prácticas oficiales."
+  pillars:
+    - name: "Excelencia operacional"
+      desc: "Operaciones consistentes y preparadas para evolucionar"
+      icon: '<svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19v-6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2zm0 0V9a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v10m-6 0a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2m0 0V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2z"/></svg>'
+    - name: "Seguridad"
+      desc: "Protección de identidades, accesos y workloads"
+      icon: '<svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>'
+    - name: "Fiabilidad"
+      desc: "Entornos resilientes con recuperación rápida"
+      icon: '<svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.21 15.89A10 10 0 1 1 8 2.83"/><path d="M22 12A10 10 0 0 0 12 2v10z"/></svg>'
+    - name: "Eficiencia de rendimiento"
+      desc: "Recursos adecuados para cada demanda"
+      icon: '<svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>'
+    - name: "Optimización de costos"
+      desc: "Gasto cloud más inteligente y eficiente"
+      icon: '<svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>'
+    - name: "Sostenibilidad"
+      desc: "Arquitecturas eficientes para el largo plazo"
+      icon: '<svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 22 16 8M3.47 12.53 5 11l1.53 1.53a3.5 3.5 0 0 0 0-4.94l-3-3a3.5 3.5 0 0 0-4.95 0 3.5 3.5 0 0 0 0 4.95l1.47 1.47"/><path d="m13 11 1.53-1.53a3.5 3.5 0 0 1 4.94 0l3 3a3.5 3.5 0 0 1 0 4.95 3.5 3.5 0 0 1-4.95 0L16 16l-1.47-1.47"/></svg>'
+  band:
+    eyebrow: "AWS Well-Architected Partner"
+    title: "Tu arquitectura puede estar funcionando. Pero ¿está preparada para escalar?"
+    subtitle: "Una revisión Well-Architected no es solo un diagnóstico técnico: es una oportunidad concreta para mejorar estabilidad, reducir riesgos y preparar la arquitectura para crecer con mayor solidez."
+    cta_label: "Conocer la solución Well-Architected"
+    cta_url: "/well-architected"
+
+cta_band:
+  title: "Listos para optimizar tu arquitectura en AWS?"
+  subtitle: "Hablemos: evaluaciones Well-Architected, migraciones y operaciones gestionadas."
+  ctas:
+    - label: "Contactanos"
+      url: "/contact"
+    - label: "Descargar ficha"
+      url: "/files/aws-ficha.pdf"
+
+meta:
+  template: "aws-landing"
+

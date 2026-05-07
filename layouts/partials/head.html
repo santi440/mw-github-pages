@@ -78,4 +78,9 @@
   {{ . | safeHTML }}
   {{ "<!-- End of extra head config -->" | safeHTML }}
   {{ end }}
+
+  {{/* Include AWS landing CSS only for aws-landing pages */}}
+  {{ if or (eq .Type "aws-landing") (eq .Params.template "aws-landing") }}
+  <link rel="stylesheet" href="{{ "css/aws-landing.css" | relURL }}">
+  {{ end }}
 </head>

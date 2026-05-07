@@ -475,7 +475,7 @@ services:
                 - item: "The identification of areas for improvement and updating of business continuity plans based on exercise results."
     technologies:
       - name: "AWS"
-        logo: "images/tech/aws.png"
+        logo: "images/tech/aws.svg"
       - name: "Google Cloud"
         logo: "images/tech/gcloud.png"
       - name: "Microsoft Azure"

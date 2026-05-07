@@ -51,6 +51,11 @@ menu:
       has_children: false
       url: "/about"
 
+    - id: "aws"
+      name: "AWS"
+      has_children: false
+      url: "/aws"
+
     - id: "success-stories"
       name: "Casos de éxito"
       has_children: false

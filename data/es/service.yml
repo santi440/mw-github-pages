@@ -476,7 +476,7 @@ services:
                 - item: "Identificación de áreas de mejora y actualización de los planes de continuidad del negocio en función de los resultados de los ejercicios."
     technologies:
       - name: "AWS"
-        logo: "images/tech/aws.png"
+        logo: "images/tech/aws.svg"
       - name: "Google Cloud"
         logo: "images/tech/gcloud.png"
       - name: "Microsoft Azure"
