@@ -1,0 +1,154 @@
+title: "AWS Well-Architected | Mikroways"
+
+hero:
+  badge: "AWS Well-Architected Partner"
+  badge_dot: true
+  title: "<em>World-Class</em> Cloud Architecture with AWS Well-Architected"
+  subtitle: "As a certified AWS Well-Architected Partner, at Mikroways we help organizations evaluate, optimize, and evolve their AWS environments to achieve higher levels of security, resilience, performance, and operational efficiency."
+  support: "We apply the official AWS framework with a practical approach, focused on results and with real technical execution capacity. We don't just identify improvement opportunities: we can help you implement them."
+  cta_label: "Request your Well-Architected Review"
+  cta_url: "/contact"
+  cta_icon: true
+  partner_image: "/images/partners/well-architected.png"
+  diagram_title: "6 pillars of the framework"
+  pillars:
+    - label: "Operational Excellence"
+      icon_color: "rgba(30,111,217,0.2)"
+      stroke_color: "#7CB9FF"
+      icon_path: '<path d="M9 19v-6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2zm0 0V9a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v10m-6 0a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2m0 0V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2z"/>'
+    - label: "Security"
+      icon_color: "rgba(39,187,204,0.18)"
+      stroke_color: "#7CE8F2"
+      icon_path: '<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>'
+    - label: "Reliability"
+      icon_color: "rgba(46,170,108,0.18)"
+      stroke_color: "#7EE2A4"
+      icon_path: '<path d="M21.21 15.89A10 10 0 1 1 8 2.83"/><path d="M22 12A10 10 0 0 0 12 2v10z"/>'
+    - label: "Performance"
+      icon_color: "rgba(61,184,122,0.18)"
+      stroke_color: "#7EE2A4"
+      icon_path: '<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>'
+    - label: "Cost Optimization"
+      icon_color: "rgba(30,111,217,0.18)"
+      stroke_color: "#7CB9FF"
+      icon_path: '<line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>'
+    - label: "Sustainability"
+      icon_color: "rgba(14,165,233,0.18)"
+      stroke_color: "#7DD3FC"
+      icon_path: '<path d="M2 22 16 8M3.47 12.53 5 11l1.53 1.53a3.5 3.5 0 0 0 0-4.94l-3-3a3.5 3.5 0 0 0-4.95 0 3.5 3.5 0 0 0 0 4.95l1.47 1.47"/><path d="m13 11 1.53-1.53a3.5 3.5 0 0 1 4.94 0l3 3a3.5 3.5 0 0 1 0 4.95 3.5 3.5 0 0 1-4.95 0L16 16l-1.47-1.47"/>'
+  aws_badge_text_strong: "Certified Partner"
+  aws_badge_text: "AWS Well-Architected Program"
+
+module_1:
+  label: "AWS Framework"
+  title: "The official AWS framework for building more solid, secure and efficient architectures"
+  intro_1: "The AWS Well-Architected Framework is Amazon Web Services' reference standard for evaluating and improving workloads in the cloud."
+  intro_2: "Its goal is to help organizations design, build and operate safer, more resilient, efficient and growth-ready environments, using best practices validated by AWS and applied to real-world scenarios."
+  conclusion: "A Well-Architected review allows you to identify risks, detect improvement opportunities and build a clear roadmap for evolving your architecture with greater predictability."
+
+module_2:
+  label: "Well-Architected Framework"
+  title: "The path to solid architectures"
+  intro: "The AWS Well-Architected framework provides a solid foundation for evaluating, improving, and maintaining cloud architectures that work correctly from an operational, security, reliability, performance, and cost perspective."
+  features:
+    - title: "Comprehensive evaluation"
+      desc: "Complete analysis of your current architecture against the 6 pillars of the framework."
+    - title: "Actionable improvement plan"
+      desc: "Prioritized and viable recommendations for implementation in your environment."
+    - title: "Implementation support"
+      desc: "Real technical support in executing the improvements identified."
+    - title: "Continuous improvement"
+      desc: "Processes to maintain and evolve your architecture over time."
+
+module_3:
+  label: "Our backing"
+  title: "A review backed by the official AWS framework and executed by a certified partner"
+  intro_1: "At Mikroways, we not only know the Well-Architected framework: we hold the official program certification and have the experience needed to translate its principles into concrete improvements on real environments."
+  intro_2: "This allows us to support our clients with a practical approach, focused on detecting relevant findings, prioritizing actions, and transforming a technical review into decisions with real business impact."
+  trust_items:
+    - title: "AWS Certified Partner"
+      desc: "Official certification from the AWS Well-Architected program. Trained to apply the framework with rigor and technical precision."
+      icon: "shield"
+    - title: "Experience in real environments"
+      desc: "Reviews executed on productive architectures in organizations across different industries and scales."
+      icon: "clock"
+    - title: "From diagnosis to execution"
+      desc: "We don't just identify, we can also implement. Real technical capacity to support remediation."
+      icon: "chart"
+    - title: "Technical and business perspective"
+      desc: "We connect technical findings with operational, financial, and strategic business impact."
+      icon: "users"
+
+module_4:
+  label: "The six pillars"
+  title: "The 6 Pillars of the AWS Well-Architected Framework"
+  body: "Each review is based on six fundamental dimensions that allow you to analyze an architecture from an integrated perspective. These pillars not only help detect technical issues: they also allow you to understand how infrastructure impacts operational continuity, user experience, financial control, and the ability to scale with lower risk."
+
+module_5:
+  pillars:
+    - num: "01"
+      title: "Operational Excellence"
+      tagline: "Design more consistent, controlled operations prepared to evolve."
+      desc: "We evaluate how the environment is managed, how deployments are made, how monitoring is performed, and how the organization responds to changes or incidents."
+      icon_path: '<path d="M9 19v-6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2zm0 0V9a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v10m-6 0a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2m0 0V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2z"/>'
+    - num: "02"
+      title: "Security"
+      tagline: "Protect identities, access, data and workloads with a more mature cloud posture."
+      desc: "We analyze controls, configurations, traceability, and practices that help reduce risk exposure and strengthen business protection."
+      icon_path: '<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>'
+    - num: "03"
+      title: "Reliability"
+      tagline: "Build resilient environments, prepared to withstand failures and recover faster."
+      desc: "We review availability, redundancy, recovery, fault tolerance, and the ability to sustain operational continuity."
+      icon_path: '<path d="M21.21 15.89A10 10 0 1 1 8 2.83"/><path d="M22 12A10 10 0 0 0 12 2v10z"/>'
+    - num: "04"
+      title: "Performance Efficiency"
+      tagline: "Ensure your architecture responds with agility to real business demand."
+      desc: "We analyze whether the services, resources, and configurations chosen are right to sustain performance and growth."
+      icon_path: '<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>'
+    - num: "05"
+      title: "Cost Optimization"
+      tagline: "Transform cloud spending into a smarter and more efficient decision."
+      desc: "We identify savings opportunities, over-sizing, idle resources, and improvement criteria for consumption."
+      icon_path: '<line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>'
+    - num: "06"
+      title: "Sustainability"
+      tagline: "Design more efficient, modern workloads ready for the long term."
+      desc: "We review decisions that impact efficient resource usage and overall architecture maturity."
+      icon_path: '<path d="M2 22 16 8M3.47 12.53 5 11l1.53 1.53a3.5 3.5 0 0 0 0-4.94l-3-3a3.5 3.5 0 0 0-4.95 0 3.5 3.5 0 0 0 0 4.95l1.47 1.47"/><path d="m13 11 1.53-1.53a3.5 3.5 0 0 1 4.94 0l3 3a3.5 3.5 0 0 1 0 4.95 3.5 3.5 0 0 1-4.95 0L16 16l-1.47-1.47"/>'
+
+module_6:
+  label: "Our methodology"
+  title: "From review to improvement plan"
+  body: "At Mikroways, we understand that a Well-Architected review only creates value when transformed into concrete actions. That's why our approach combines technical analysis, finding prioritization, and a clear roadmap so that each recommendation makes sense within your actual business context."
+  cta_label: "Request my review"
+  cta_url: "/contact"
+  steps:
+    - num: "01"
+      title: "Discovery"
+      sub: "We understand your workload context"
+      desc: "We analyze objectives, criticality, constraints, dependencies, and priorities to interpret the architecture from a technical and business perspective."
+    - num: "02"
+      title: "Specialized review"
+      sub: "We evaluate the architecture with certified specialists"
+      desc: "We review configurations, patterns, and technical decisions across the six framework pillars to detect risks and improvement opportunities."
+    - num: "03"
+      title: "Findings and prioritization"
+      sub: "We transform the review into a clear and actionable report"
+      desc: "We consolidate findings, criticality, priorities, and recommendations into useful output for decision-making."
+    - num: "04"
+      title: "Remediation roadmap"
+      sub: "We build a realistic and prioritized roadmap"
+      desc: "We define a concrete path to address quick wins, reduce risks, and evolve the architecture progressively."
+    - num: "05"
+      title: "Implementation and continuous improvement"
+      sub: "If you want, we also help you execute"
+      desc: "Our differentiator is that we don't limit ourselves to diagnosis: we can also support remediation, implement improvements, and drive continuous evolution of your environment."
+
+module_7:
+  label: "Ready to evolve?"
+  title: "Your AWS architecture might be working. But that doesn't mean it's ready to scale, withstand challenges, or optimize."
+  body: "An AWS Well-Architected review allows you to detect risks, validate technical decisions, and build a clear roadmap to evolve your environment with official AWS best practices. At Mikroways, we support you with a technical, practical, and results-oriented approach, combining evaluation, prioritization, and real execution capacity."
+
+meta:
+  template: "wellarch"

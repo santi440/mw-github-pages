@@ -1,0 +1,205 @@
+{{ define "main" }}
+{{ $locale := .Site.Language.Lang }}
+{{ $data := index .Site.Data $locale "wellarch" }}
+
+<div class="wellarch-landing">
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-grid"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-glow-2"></div>
+    <div class="hero-content">
+      <div class="hero-text"  style="padding-right: 0 !important; padding-left: 0 !important;">
+        <div class="hero-badge">
+          {{ if $data.hero.badge_dot }}<div class="hero-badge-dot"></div>{{ end }}
+          {{ $data.hero.badge }}
+        </div>
+        <h1 class="hero-title">
+          {{ $data.hero.title | safeHTML }}
+        </h1>
+        <p class="hero-subtitle">
+          {{ $data.hero.subtitle }}
+        </p>
+        <p class="hero-support">
+          {{ $data.hero.support }}
+        </p>
+        <div class="hero-cta-group">
+          <a href="{{ $data.hero.cta_url }}" class="btn-primary scroll-to-section">
+            {{ $data.hero.cta_label }}
+            {{ if $data.hero.cta_icon }}<svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>{{ end }}
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div style="display:flex;justify-content:flex-start;margin-bottom:20px;">
+          <div style="display:inline-flex;align-items:center;justify-content:center;box-shadow:0 4px 24px rgba(0,0,0,0.25);width:130px;height:130px;box-sizing:border-box;">
+            <img src="{{ "/images/partners/_well_architected_partner_program-color-.png" | relURL }}" alt="AWS Well-Architected Partner Program" style="width:100%;height:auto;" />
+          </div>
+        </div>
+        <div class="hero-diagram">
+          <div class="hero-diagram-title">{{ $data.hero.diagram_title }}</div>
+          <div class="pillar-grid">
+            {{ range $data.hero.pillars }}
+            <div class="pillar-mini">
+              <div class="pillar-mini-icon" style="background:{{ .icon_color }}">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="{{ .stroke_color }}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  {{ .icon_path | safeHTML }}
+                </svg>
+              </div>
+              <div class="pillar-mini-label">{{ .label }}</div>
+            </div>
+            {{ end }}
+          </div>
+          <div class="aws-badge">
+            <div class="aws-badge-icon">AWS</div>
+            <div class="aws-badge-text">
+              <strong>{{ $data.hero.aws_badge_text_strong }}</strong>
+              {{ $data.hero.aws_badge_text }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODULE 1: What is Well-Architected Framework -->
+  <section class="module-2" id="que-es">
+    <div class="container">
+      <div class="module-2-inner">
+        <div class="module-2-text">
+          <div class="section-label reveal">{{ $data.module_1.label }}</div>
+          <h2 class="section-title reveal stagger-1">{{ $data.module_1.title }}</h2>
+          <p class="section-body reveal stagger-2">{{ $data.module_1.intro_1 }}</p>
+          <p class="section-body reveal stagger-3" style="margin-top:16px">{{ $data.module_1.intro_2 }}</p>
+          <div class="divider reveal stagger-3"></div>
+          <p class="section-body reveal stagger-4" style="margin-top:20px">{{ $data.module_1.conclusion }}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODULE 3: Trust & Expertise -->
+  <section class="module module-3">
+    <div class="container">
+      <div class="module-3-inner">
+        <div>
+          <div class="section-label reveal">{{ $data.module_3.label }}</div>
+          <h2 class="section-title reveal stagger-1">{{ $data.module_3.title }}</h2>
+          <p class="module-3-body reveal stagger-2">
+            {{ $data.module_3.intro_1 }}
+          </p>
+          <p class="module-3-body reveal stagger-3" style="margin-top:16px">
+            {{ $data.module_3.intro_2 }}
+          </p>
+        </div>
+        <div class="trust-indicators">
+          {{ range $index, $item := $data.module_3.trust_items }}
+          <div class="trust-card reveal stagger-{{ add $index 1 }}">
+            <div class="trust-card-icon">
+              {{ if eq $item.icon "shield" }}
+              <svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              {{ else if eq $item.icon "clock" }}
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              {{ else if eq $item.icon "chart" }}
+              <svg viewBox="0 0 24 24"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+              {{ else if eq $item.icon "users" }}
+              <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              {{ end }}
+            </div>
+            <div>
+              <div class="trust-card-title">{{ $item.title }}</div>
+              <div class="trust-card-text">{{ $item.desc }}</div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODULE 4: 6 Pillars Overview -->
+  <section class="module-4" id="pilares">
+    <div class="container">
+      <div class="section-label reveal">{{ $data.module_4.label }}</div>
+      <h2 class="section-title reveal stagger-1">{{ $data.module_4.title }}</h2>
+      <p class="section-body reveal stagger-2">
+        {{ $data.module_4.body }}
+      </p>
+    </div>
+  </section>
+
+  <!-- MODULE 5: 6 Pillars Detailed -->
+  <section class="module-5">
+    <div class="container">
+      <div class="pillars-grid" id="pillars-grid">
+        {{ range $index, $pillar := $data.module_5.pillars }}
+        <div class="pillar-card show-all reveal stagger-{{ add $index 1 }}" data-index="{{ $index }}">
+          <div class="pillar-number">{{ printf "%02d" (add $index 1) }} · PILAR</div>
+          <div class="pillar-icon">
+            <svg viewBox="0 0 24 24">{{ $pillar.icon_path | safeHTML }}</svg>
+          </div>
+          <h3 class="pillar-title">{{ $pillar.title }}</h3>
+          <p class="pillar-tagline">{{ $pillar.tagline }}</p>
+          <p class="pillar-desc">{{ $pillar.desc }}</p>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+
+  <!-- MODULE 6: Our Methodology -->
+  <section class="module-6" id="metodologia">
+    <div class="container">
+      <div class="module-6-inner">
+        <div class="module-6-sticky">
+          <div class="section-label reveal">{{ $data.module_6.label }}</div>
+          <h2 class="section-title reveal stagger-1">{{ $data.module_6.title }}</h2>
+          <p class="section-body reveal stagger-2">
+            {{ $data.module_6.body }}
+          </p>
+          <a href="{{ $data.module_6.cta_url }}" class="btn-primary reveal stagger-3" style="margin-top:32px;display:inline-flex;">
+            {{ $data.module_6.cta_label }}
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+          </a>
+        </div>
+        <div class="steps-list">
+          {{ range $index, $step := $data.module_6.steps }}
+          <div class="step-item reveal stagger-{{ add $index 1 }}">
+            <div class="step-left">
+              <div class="step-num">{{ $step.num }}</div>
+              {{ if lt $index (sub (len $data.module_6.steps) 1) }}<div class="step-line"></div>{{ end }}
+            </div>
+            <div class="step-body">
+              <div class="step-title">{{ $step.title }}</div>
+              <div class="step-sub">{{ $step.sub }}</div>
+              <p class="step-desc">{{ $step.desc }}</p>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODULE 7: Final CTA -->
+  <section class="module-7" id="cta-final">
+    <div class="module-7-glow"></div>
+    <div class="container">
+      <div class="module-7-inner">
+        <span class="section-label reveal">{{ $data.module_7.label }}</span>
+        <h2 class="section-title reveal stagger-1">
+          {{ $data.module_7.title }}
+        </h2>
+        <p class="module-7-body reveal stagger-2">
+          {{ $data.module_7.body }}
+        </p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script src="/js/wellarch-landing.js"></script>
+
+<link rel="stylesheet" href="/css/wellarch.css">
+<link rel="stylesheet" href="/css/custom.css">
+{{ end }}

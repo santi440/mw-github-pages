@@ -1,0 +1,153 @@
+title: "AWS Well-Architected | Mikroways"
+
+hero:
+  badge: "AWS Well-Architected Partner"
+  badge_dot: true
+  title: "Arquitectura Cloud de <em>Clase Mundial</em> con AWS Well-Architected"
+  subtitle: "Como partner certificado del programa AWS Well-Architected, en Mikroways ayudamos a las organizaciones a evaluar, optimizar y evolucionar sus entornos en AWS para alcanzar mayores niveles de seguridad, resiliencia, performance y eficiencia operativa."
+  support: "Aplicamos el framework oficial de AWS con una mirada práctica, orientada a resultados y con capacidad real de ejecución técnica. No solo identificamos oportunidades de mejora: también podemos ayudarte a implementarlas."
+  cta_label: "Solicitá tu revisión Well-Architected"
+  cta_url: "/es/contact"
+  cta_icon: true
+  partner_image: "/images/partners/well-architected.png"
+  diagram_title: "6 pilares del framework"
+  pillars:
+    - label: "Excelencia Operacional"
+      icon_color: "rgba(30,111,217,0.2)"
+      stroke_color: "#7CB9FF"
+      icon_path: '<path d="M9 19v-6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2zm0 0V9a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v10m-6 0a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2m0 0V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2z"/>'
+    - label: "Seguridad"
+      icon_color: "rgba(39,187,204,0.18)"
+      stroke_color: "#7CE8F2"
+      icon_path: '<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>'
+    - label: "Fiabilidad"
+      icon_color: "rgba(46,170,108,0.18)"
+      stroke_color: "#7EE2A4"
+      icon_path: '<path d="M21.21 15.89A10 10 0 1 1 8 2.83"/><path d="M22 12A10 10 0 0 0 12 2v10z"/>'
+    - label: "Rendimiento"
+      icon_color: "rgba(61,184,122,0.18)"
+      stroke_color: "#7EE2A4"
+      icon_path: '<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>'
+    - label: "Optimización de Costos"
+      icon_color: "rgba(30,111,217,0.18)"
+      stroke_color: "#7CB9FF"
+      icon_path: '<line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>'
+    - label: "Sostenibilidad"
+      icon_color: "rgba(14,165,233,0.18)"
+      stroke_color: "#7DD3FC"
+      icon_path: '<path d="M2 22 16 8M3.47 12.53 5 11l1.53 1.53a3.5 3.5 0 0 0 0-4.94l-3-3a3.5 3.5 0 0 0-4.95 0 3.5 3.5 0 0 0 0 4.95l1.47 1.47"/><path d="m13 11 1.53-1.53a3.5 3.5 0 0 1 4.94 0l3 3a3.5 3.5 0 0 1 0 4.95 3.5 3.5 0 0 1-4.95 0L16 16l-1.47-1.47"/>'
+  aws_badge_text_strong: "Partner Certificado"
+  aws_badge_text: "AWS Well-Architected Program"
+
+module_1:
+  label: "Framework AWS"
+  title: "El framework oficial de AWS para construir arquitecturas más sólidas, seguras y eficientes"
+  intro_1: "El AWS Well-Architected Framework es el estándar de referencia de Amazon Web Services para evaluar y mejorar cargas de trabajo en la nube."
+  intro_2: "Su objetivo es ayudar a las organizaciones a diseñar, construir y operar entornos más seguros, resilientes, eficientes y preparados para crecer, utilizando mejores prácticas validadas por AWS y aplicadas sobre escenarios reales."
+  conclusion: "Una revisión Well-Architected permite identificar riesgos, detectar oportunidades de mejora y construir una hoja de ruta clara para evolucionar la arquitectura con mayor previsibilidad."
+
+module_2:
+  label: "Well-Architected Framework"
+  title: "El camino hacia arquitecturas sólidas"
+  intro: "El framework de AWS Well-Architected proporciona una base sólida para evaluar, mejorar y mantener arquitecturas cloud que funcionen correctamente desde el punto de vista operativo, de seguridad, confiabilidad, rendimiento y costos."
+  features:
+    - title: "Evaluación integral"
+      desc: "Análisis completo de tu arquitectura actual contra los 6 pilares del framework."
+    - title: "Plan de mejoras accionable"
+      desc: "Recomendaciones priorizadas y viables para implementar en tu entorno."
+    - title: "Acompañamiento en la implementación"
+      desc: "Apoyo técnico real en la ejecución de las mejoras identificadas."
+    - title: "Mejora continua"
+      desc: "Procesos para mantener y evolucionar tu arquitectura en el tiempo."
+
+module_3:
+  label: "Nuestro respaldo"
+  title: "Una revisión respaldada por el framework oficial de AWS y ejecutada por un partner certificado"
+  intro_1: "En Mikroways no solo conocemos el marco Well-Architected: contamos con la certificación oficial del programa y la experiencia necesaria para traducir sus principios en mejoras concretas sobre entornos reales."
+  intro_2: "Esto nos permite acompañar a nuestros clientes con una mirada práctica, enfocada en detectar hallazgos relevantes, priorizar acciones y transformar una revisión técnica en decisiones con impacto real sobre el negocio."
+  trust_items:
+    - title: "Partner Certificado AWS"
+      desc: "Certificación oficial del programa AWS Well-Architected. Capacitados para aplicar el framework con rigor y precisión técnica."
+      icon: "shield"
+    - title: "Experiencia en entornos reales"
+      desc: "Revisiones ejecutadas sobre arquitecturas productivas en organizaciones de diferentes industrias y escala."
+      icon: "clock"
+    - title: "Del diagnóstico a la ejecución"
+      desc: "No solo identificamos, también podemos implementar. Capacidad técnica real para acompañar la remediación."
+      icon: "chart"
+    - title: "Mirada técnica y de negocio"
+      desc: "Conectamos hallazgos técnicos con impacto operativo, financiero y estratégico para el negocio."
+      icon: "users"
+module_4:
+  label: "Los seis pilares"
+  title: "Los 6 pilares del AWS Well-Architected Framework"
+  body: "Cada revisión se apoya en seis dimensiones fundamentales que permiten analizar una arquitectura desde una perspectiva integral. Estos pilares no solo ayudan a detectar problemas técnicos: también permiten entender cómo la infraestructura impacta en la continuidad operativa, la experiencia del usuario, el control financiero y la capacidad de escalar con menor riesgo."
+
+module_5:
+  pillars:
+    - num: "01"
+      title: "Excelencia Operacional"
+      tagline: "Diseñá operaciones más consistentes, controladas y preparadas para evolucionar."
+      desc: "Evaluamos cómo se gestiona el entorno, cómo se despliega, cómo se monitorea y cómo responde la organización frente a cambios o incidentes."
+      icon_path: '<path d="M9 19v-6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2zm0 0V9a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v10m-6 0a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2m0 0V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2z"/>'
+    - num: "02"
+      title: "Seguridad"
+      tagline: "Protegé identidades, accesos, datos y workloads con una postura cloud más madura."
+      desc: "Analizamos controles, configuraciones, trazabilidad y prácticas que ayudan a reducir exposición al riesgo y fortalecer la protección del negocio."
+      icon_path: '<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>'
+    - num: "03"
+      title: "Fiabilidad"
+      tagline: "Construí entornos resilientes, preparados para resistir fallos y recuperarse más rápido."
+      desc: "Revisamos disponibilidad, redundancia, recuperación, tolerancia a fallos y capacidad de sostener la continuidad operativa."
+      icon_path: '<path d="M21.21 15.89A10 10 0 1 1 8 2.83"/><path d="M22 12A10 10 0 0 0 12 2v10z"/>'
+    - num: "04"
+      title: "Eficiencia de Rendimiento"
+      tagline: "Asegurá que tu arquitectura responda con agilidad a la demanda real del negocio."
+      desc: "Analizamos si los servicios, recursos y configuraciones elegidos son los adecuados para sostener performance y crecimiento."
+      icon_path: '<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>'
+    - num: "05"
+      title: "Optimización de Costos"
+      tagline: "Transformá el gasto cloud en una decisión más inteligente y eficiente."
+      desc: "Identificamos oportunidades de ahorro, sobredimensionamientos, recursos ociosos y criterios de mejora sobre el consumo."
+      icon_path: '<line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>'
+    - num: "06"
+      title: "Sostenibilidad"
+      tagline: "Diseñá cargas de trabajo más eficientes, modernas y preparadas para el largo plazo."
+      desc: "Revisamos decisiones que impactan en el uso eficiente de recursos y en la madurez general de la arquitectura."
+      icon_path: '<path d="M2 22 16 8M3.47 12.53 5 11l1.53 1.53a3.5 3.5 0 0 0 0-4.94l-3-3a3.5 3.5 0 0 0-4.95 0 3.5 3.5 0 0 0 0 4.95l1.47 1.47"/><path d="m13 11 1.53-1.53a3.5 3.5 0 0 1 4.94 0l3 3a3.5 3.5 0 0 1 0 4.95 3.5 3.5 0 0 1-4.95 0L16 16l-1.47-1.47"/>'
+
+module_6:
+  label: "Nuestra metodología"
+  title: "De la revisión al plan de mejora"
+  body: "En Mikroways entendemos que una revisión Well-Architected solo genera valor cuando se transforma en acciones concretas. Por eso, nuestro enfoque combina análisis técnico, priorización de hallazgos y una hoja de ruta clara para que cada recomendación tenga sentido dentro del contexto real del negocio."
+  cta_label: "Solicitar mi revisión"
+  cta_url: "/es/contact"
+  steps:
+    - num: "01"
+      title: "Descubrimiento"
+      sub: "Entendemos el contexto de tu carga de trabajo"
+      desc: "Analizamos objetivos, criticidad, restricciones, dependencias y prioridades para interpretar la arquitectura desde una mirada técnica y de negocio."
+    - num: "02"
+      title: "Revisión especializada"
+      sub: "Evaluamos la arquitectura con especialistas certificados"
+      desc: "Revisamos configuraciones, patrones y decisiones técnicas sobre los seis pilares del framework para detectar riesgos y oportunidades de mejora."
+    - num: "03"
+      title: "Hallazgos y priorización"
+      sub: "Transformamos la revisión en un informe claro y accionable"
+      desc: "Consolidamos hallazgos, criticidad, prioridades y recomendaciones en una salida útil para la toma de decisiones."
+    - num: "04"
+      title: "Roadmap de remediación"
+      sub: "Construimos una hoja de ruta realista y priorizada"
+      desc: "Definimos un camino concreto para abordar quick wins, reducir riesgos y evolucionar la arquitectura de forma progresiva."
+    - num: "05"
+      title: "Implementación y mejora continua"
+      sub: "Si querés, también te ayudamos a ejecutar"
+      desc: "Nuestro diferencial está en que no nos limitamos al diagnóstico: también podemos acompañar la remediación, la implementación de mejoras y la evolución continua del entorno."
+
+module_7:
+  label: "¿Listo para evolucionar?"
+  title: "Tu arquitectura en AWS puede estar funcionando. Pero eso no significa que esté preparada para escalar, resistir u optimizar."
+  body: "Una revisión AWS Well-Architected te permite detectar riesgos, validar decisiones técnicas y construir una hoja de ruta clara para evolucionar tu entorno con mejores prácticas oficiales de AWS. En Mikroways te acompañamos con una mirada técnica, práctica y orientada a resultados, combinando evaluación, priorización y capacidad real de ejecución."
+
+meta:
+  template: "wellarch"
