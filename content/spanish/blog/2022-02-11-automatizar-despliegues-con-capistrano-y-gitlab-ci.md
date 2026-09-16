@@ -14,7 +14,7 @@ tags: ["capistrano", "automatización", "gitlab-ci"]
 description: "Integración de Capistrano con GitLab CI"
 ---
 
-En el post anterior vimos cómo podemos [automatizar un despliegue utilizando Capistrano]({{<ref "/blog/2022-01-28-automatizacion-de-tareas-con-capistrano.">}}). En este post veremos cómo integrar Capistrano con GitLab CI.
+En el post anterior vimos cómo podemos [automatizar un despliegue utilizando Capistrano]({{< ref "/blog/2022-01-28-automatizacion-de-tareas-con-capistrano" >}}). En este post veremos cómo integrar Capistrano con GitLab CI.
 
 ### Integrando Capistrano a GitLab CI
 

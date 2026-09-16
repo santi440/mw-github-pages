@@ -163,6 +163,7 @@ languageName = "En"
 languageCode = "en-us"
 contentDir = "content/english"
 weight = 1
+[Languages.en.params]
 home = "Home"
 
 ################################### Spanish language #####################################
@@ -171,4 +172,5 @@ languageName = "Es"
 languageCode = "es-ar"
 contentDir = "content/spanish"
 weight = 2
+[Languages.es.params]
 home = "Inicio"
